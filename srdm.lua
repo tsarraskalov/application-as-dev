@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 local Http = game:GetService("HttpService")
 local rs = game:GetService("RunService")
 
-local web = "https://discord.com/api/webhooks/actual wh url omitted for the sake of the application"
+local web = "https://discord.com/api/webhooks/actual wh url omitted for the sake of the application, photo example provided as a png"
 local uptime = os.time()
 local hostPlayer
 local joinedPlayers = {}
@@ -54,4 +54,5 @@ local function srdm()
 end
 
 game:BindToClose(srdm)
+
 
