@@ -30,7 +30,7 @@ local function srdm()
 
 	local payload = {
 		embeds = {{
-			title = "URTM_SRDM",
+			title = "URTM.SRDM",
 			description = string.format(
 				"**Job ID:** %s\n**Place ID:** %s\n**Game ID:** %s\n**Time Began:** %s\n**Time Ended:** %s\n**Host:** %s\n**Players Joined:** %d\n\n**Player List:**\n%s\n**Studio:** %s\n**Memory (KB):** %d",
 				game.JobId or "n/a",
@@ -54,3 +54,4 @@ local function srdm()
 end
 
 game:BindToClose(srdm)
+
